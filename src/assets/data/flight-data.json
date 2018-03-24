@@ -1,0 +1,141 @@
+[
+  {
+    "id": 0,
+    "flightName": "Jet-Airways",
+    "from": "Pune",
+    "to": "Delhi",
+    "departureTime": "02:30pm",
+    "arrivalTime": "03:30pm",
+    "journeyDate": "6/20/2018",
+    "departDate": "6/20/2018",
+    "arrivalDate": "6/20/2018",
+    "flightRate": 6500
+  },
+  {
+    "id": 1,
+    "flightName": "Indigo",
+    "from": "Pune",
+    "to": "Delhi",
+    "departureTime": "04:30pm",
+    "arrivalTime": "05:30pm",
+    "journeyDate": "6/20/2018",
+    "departDate": "6/20/2018",
+    "arrivalDate": "6/20/2018",
+    "flightRate": 2500
+  },
+  {
+    "id": 2,
+    "flightName": "Spice Jet",
+    "from": "Delhi",
+    "to": "Pune",
+    "departureTime": "02:05pm",
+    "arrivalTime": "03:50am",
+    "journeyDate": "6/21/2018",
+    "departDate": "6/21/2018",
+    "arrivalDate": "6/21/2018",
+    "flightRate": 5700
+  },
+  {
+    "id": 3,
+    "flightName": "Vistara",
+    "from": "Delhi",
+    "to": "Dubai",
+    "departureTime": "12:55pm",
+    "arrivalTime": "08:15am",
+    "journeyDate": "6/20/2018",
+    "departDate": "6/20/2018",
+    "arrivalDate": "6/20/2018",
+    "flightRate": 29000
+  },
+  {
+    "id": 4,
+    "flightName": "Luftansa Airlines",
+    "from": "Delhi",
+    "to": "London",
+    "departureTime": "11:40pm",
+    "arrivalTime": "10:15am",
+    "journeyDate": "6/20/2018",
+    "departDate": "6/20/2018",
+    "arrivalDate": "6/20/2018",
+    "flightRate": 33000
+  },
+  {
+    "id": 5,
+    "flightName": "Indigo Pune",
+    "from": "Pune",
+    "to": "Nagpur",
+    "departureTime": "05:10am",
+    "arrivalTime": "07:15am",
+    "journeyDate": "6/20/2018",
+    "departDate": "6/20/2018",
+    "arrivalDate": "6/20/2018",
+    "flightRate": 2876
+  },
+  {
+    "id": 6,
+    "flightName": "Vistara Delhi-Chennai",
+    "from": "Delhi",
+    "to": "Chennai",
+    "departureTime": "03:15am",
+    "arrivalTime": "05:00am",
+    "journeyDate": "6/20/2018",
+    "departDate": "6/20/2018",
+    "arrivalDate": "6/20/2018",
+    "flightRate": 2948
+  },
+  {
+    "id": 7,
+    "flightName": "Air India",
+    "from": "Goa",
+    "to": "Delhi",
+    "departureTime": "07:20pm",
+    "arrivalTime": "10:50pm",
+    "departDate": "6/20/2018",
+    "arrivalDate": "6/20/2018",
+    "flightRate": 4900
+  },
+  {
+    "id": 8,
+    "flightName": "Go Air",
+    "from": "Goa",
+    "to": "Mumbai",
+    "departureTime": "12:00pm",
+    "arrivalTime": "02:00pm",
+    "departDate": "6/20/2018",
+    "arrivalDate": "6/20/2018",
+    "flightRate": 8000
+  },
+  {
+    "id": 9,
+    "flightName": "Kingfisher",
+    "from": "Delhi",
+    "to": "Goa",
+    "departureTime": "12:30pm",
+    "arrivalTime": "3:30am",
+    "departDate": "6/20/2018",
+    "arrivalDate": "6/20/2018",
+    "flightRate": 1900
+  },
+  {
+    "id": 10,
+    "flightName": "Indigo",
+    "from": "Chennai",
+    "to": "Mumbai",
+    "departureTime": "04:20am",
+    "arrivalTime": "07:50am",
+    "departDate": "6/20/2018",
+    "arrivalDate": "6/20/2018",
+    "flightRate": 2500
+  },
+  {
+    "id": 11,
+    "flightName": "Indigo",
+    "from": "Delhi",
+    "to": "Pune",
+    "departureTime": "02:05pm",
+    "arrivalTime": "03:50pm",
+    "departDate": "6/21/2018",
+    "arrivalDate": "6/21/2018",
+    "flightRate": 5600
+  }
+]

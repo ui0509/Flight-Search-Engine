@@ -1,0 +1,29 @@
+
+<div class="row">
+        
+<div class="col-xs-12" *ngIf="finalResult">     
+    <div class="row" *ngFor="let item of finalResult">
+        <div class="col-xs-4">
+            <h4>{{item.flightRate}} INR</h4>
+            <h6>{{item.flightName}}</h6>
+            <p>{{item.from}} > {{item.to}}</p>
+            <p>Depart : {{item.departureTime}}</p>
+            <p>Arrive : {{item.arrivalTime}}</p>
+        </div>
+        <div class="col-xs-4" *ngIf="item.returnData">
+                <h4>{{item.returnData.flightRate}} INR</h4>
+                <h6>{{item.returnData.flightName}}</h6>
+                <p>{{item.returnData.from}} > {{item.returnData.to}}</p>
+                <p>Depart : {{item.returnData.departureTime}}</p>
+                <p>Arrive : {{item.returnData.arrivalTime}}</p>
+        </div>
+        <div class="col-xs-2">
+                <img src="../../../assets/flight.png" class="image-class">
+                <button type="button" class="btn btn-primary">Book this Flight</button>
+        </div>
+        <div class="col-xs-2">
+
+        </div>
+    </div>
+</div>
+</div>

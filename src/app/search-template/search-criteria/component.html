@@ -1,0 +1,78 @@
+<div class="col-xs-12 border-style">
+    <ul class="nav nav-pills">
+        <li class="active">
+            <a href="#oneway" data-toggle="pill" (click)="getJourneyType($event, 'oneWay')">One Way</a>
+        </li>
+        <li>
+            <a href="#return" data-toggle="pill" (click)="getJourneyType($event, 'return')">Return</a>
+        </li>
+    </ul>
+    <form class="form-horizontal" style="margin-top:5%">
+        <div class="form-group">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                <label for="originCityLabel">Enter Origin City:</label>
+                <input type="text" class="form-control" id="origin" [(ngModel)]="searchCriteria.originCity" name="originCity">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                <label for="destinationCityLabel">Enter Destination City:</label>
+                <input type="text" class="form-control" id="destination" [(ngModel)]="searchCriteria.destinationCity" name="destinationCity">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                <label for="depatureDateLabel">Enter Depature Date:</label>
+                <input type="date" class="form-control" id="departDate" placeholder="Depature Date" [(ngModel)]="searchCriteria.departureDate"
+                    name="departureDate">
+            </div>
+        </div>
+
+        <div class="form-group" *ngIf="journeyType === 'return'">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                <label for="returnDateLabel">Enter Return Date:</label>
+                <input type="date" class="form-control" id="returnDate" placeholder="Return Date" [(ngModel)]="searchCriteria.returnDate"
+                    name="returnDate">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                <label for="noOfPassengerLabel">Passengers:</label>
+                <input type="number" class="form-control" id="numberofpassenger" name="numberofpassenger" [(ngModel)]="searchCriteria.numberofpassenger"
+                    min="1" max="20" maxlength="2" value="1">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                <button type="submit" class="btn btn-primary" (click)="search()">Submit</button>
+            </div>
+        </div>
+
+    </form>
+    
+    
+    <div *ngIf="finalResultFlag">
+    <ion-range-slider #sliderElement
+          type="double"
+          [min]="0"
+          max="10000"
+          from="0"
+          from_min="0"
+          from_max="10000"
+          from_shadow="true"
+          to="10000"
+          to_min="0"
+          to_max="10000"
+          to_shadow="true"
+          grid="true"
+          grid_num="5"
+          prefix=" "
+          postfix=""
+          decorate_both="false"
+          (onChange)="myOnChange($event)"
+          ></ion-range-slider>
+        </div>
+</div>
